@@ -1,7 +1,5 @@
 # Selecionar o interpretador:
 
----
-
 1. `CTRL + SHIFT + P`
 2. **Digite:**
    - _Python: Select Interpreter_
