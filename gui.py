@@ -45,4 +45,13 @@ def redraw_window(win, board):
     draw_board(win, board)
 
 def main():
-    
+    win = pygame.display.set_mode((600, 600))
+    pygame.display.set_caption("Jogo da Véia")
+
+    board = criar_board()
+
+    redraw_window(win, board)
+    pygame.display.update()
+
+    jogador = 0
+    ganhador = verifica_ganhador(board)
